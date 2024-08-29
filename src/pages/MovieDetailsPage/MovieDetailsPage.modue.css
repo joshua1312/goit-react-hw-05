@@ -1,0 +1,83 @@
+.movieDetailsPage {
+    padding: 20px 40px 40px 40px;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.movieInfoContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    .movieInfoContainer {
+        flex-direction: row;
+    }
+}
+
+.movieInfoContainer img {
+    width: 100%;
+    /* Або встановіть бажану ширину */
+    height: auto;
+    object-fit: cover;
+    /* Може бути також 'contain', залежно від потреб */
+}
+
+.movieDetailsPage h3 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.movieDetailsPage h4 {
+    margin: 40px 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.movieDetailsPage p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.movieDetailsPage ul {
+    margin: 20px;
+    padding: 0;
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: rgb(255, 0, 166);
+}
+
+.goBack {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    text-decoration: none;
+}
+
+.goBack:hover {
+    text-decoration: underline;
+}
+
+.goBack:active {
+    text-decoration: underline;
+    color: rgb(255, 0, 166);
+}

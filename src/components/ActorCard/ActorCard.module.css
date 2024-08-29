@@ -1,0 +1,30 @@
+.actorCard {
+    width: 200px;
+    height: 400px;
+    padding-bottom: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actorCard img {
+    width: 100%;
+    /* Або встановіть бажану ширину */
+    height: 300px;
+    object-fit: contain;
+    /* Може бути також 'contain', залежно від потреб */
+}
+
+.actorCard p {
+    margin-top: 12px;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1, 5;
+    text-align: center;
+}
+
+.actorCard span {
+    color: rgb(255, 0, 166);
+}
