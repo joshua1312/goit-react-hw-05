@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
-import api from "../../gallery-api";
+import api from "../../movie-api";
 import MoviesList from "../../components/MovieList/MovieList";
 import Loader from "../../components/Loader/Loader";
 import css from "./HomePage.module.css";

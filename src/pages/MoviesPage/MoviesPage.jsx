@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
-import api from "../../gallery-api";
+import api from "../../movie-api";
 import SearchForm from "../../components/SearchForm/SearchForm";
 import Loader from "../../components/Loader/Loader";
 import MoviesList from "../../components/MovieList/MovieList";

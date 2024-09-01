@@ -3,12 +3,12 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import Loader from "../Loader/Loader";
-import api from "../../gallery-api";
+import api from "../../movie-api";
 import ActorCard from "../ActorCard/ActorCard";
 import css from "./MovieCast.module.css";
 
 function MovieCast() {
-    const { movieId } = useParams(); // Отримуємо movieId з параметрів маршруту
+    const { movieId } = useParams(); 
     const [movieCast, setMovieCast] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(false);

@@ -26,5 +26,6 @@
 
 .notFoundPage a:active {
     text-decoration: underline;
-    color: rgb(255, 0, 166);
+    color: black;
+
 }

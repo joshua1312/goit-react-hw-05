@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import Loader from "../Loader/Loader";
-import api from "../../gallery-api";
+import api from "../../movie-api";
 import css from "./MovieReviews.module.css";
 
 function MovieReviews() {

@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import Loader from "../../components/Loader/Loader";
-import api from "../../gallery-api";
+import api from "../../movie-api";
 import css from "./MovieDetailsPage.module.css";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import clsx from "clsx";

@@ -5,7 +5,7 @@ const ActorCard = ({ actor }) => {
     const { profile_path, name, character } = actor;
     return (
         <div className={css.actorCard}>
-            <img src={`https://image.tmdb.org/t/p/w500${profile_path}`} alt={name} />
+            <img src={`https://image.tmdb.org/t/p/w500${profile_path}`} alt={name} style={{ maxWidth: 200 }} />
             <p>
                 {name} <br />
                 {character && (
